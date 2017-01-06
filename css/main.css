@@ -1,12 +1,13 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 60%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.5em;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -20,17 +21,20 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
+	width: 100%;
+	clear: both;
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: .8em; 
+
 }
 
 ul.posts { 
@@ -40,4 +44,20 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+div.container {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
 }
